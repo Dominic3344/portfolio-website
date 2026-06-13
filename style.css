@@ -152,6 +152,7 @@
   h1.hero-name .last {
     color: transparent;
     -webkit-text-stroke: 1.5px var(--cyan);
+     -webkit-text-size-adjust: 100%;
   }
 
   .hero-tagline {
