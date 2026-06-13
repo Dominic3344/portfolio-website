@@ -821,6 +821,12 @@ footer.visible {
   .nav-links.open {
     transform: translateX(0);
   }
+  .stat-number {
+    font-family: var(--mono);
+    font-size: 1rem;
+    color: var(--cyan);
+    display: block;
+}
 
   .nav-links li {
     border-bottom: 1px solid var(--border);
