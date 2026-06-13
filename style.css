@@ -91,6 +91,7 @@
   cursor: pointer;
   padding: 4px;
   z-index: 200;
+  background-color: #0d1520;
 }
 .hamburger span {
   display: block;
