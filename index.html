@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dominic Tojan </title>
+<link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Syne:wght@400;700;800&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  <script src="assets/images.js"></script>
+  <script src="main.js" defer></script>
+</head>
+<body>
+
+<canvas id="circuit-canvas"></canvas>
+
+<!-- NAV -->
+<nav>
+  <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+  <span></span>
+  <span></span>
+  <span></span>
+</button>
+  <div class="nav-logo" style="display:flex;align-items:center;gap:0.6rem;"><img src="" data-asset="logo" alt="D Logo" alt="D Logo" style="height:34px;width:34px;object-fit:contain;border-radius:50%;border:1px solid rgba(0,229,204,0.3);">&lt;DCODER CREATION&gt;</div>
+  <ul class="nav-links">
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#achievements">Wins</a></li>
+    <li><a href="#blog">Blog</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<section id="hero">
+  <div class="hero-photo-bg">
+    <img src="" data-asset="photo" alt="Dominic Tojan" alt="Dominic Tojan">
+  </div>
+  
+
+  <div class="hero-content">
+  
+  <div class="hero-eyebrow"><span>Crafting Ideas into Reality</span></div>
+  <h1 class="hero-name">
+    <span class="first">Dominic</span><br>
+    <span class="last">Tojan</span>
+  </h1>
+  <div class="hero-tagline">
+    <span class="tag-pill">⚡ Maker</span>
+    <span class="tag-pill">📡 IoT Explorer</span>
+    <span class="tag-pill">📱 App Creator</span>
+    <span class="tag-pill">🎓 Btech CS </span>
+  </div>
+  <p class="hero-description">
+    First-year Computer Science student passionate about turning ideas into tangible hardware and software.
+    I prototype with <strong style="color:var(--text)">Arduino & ESP32</strong>, build apps in <strong style="color:var(--text)">Java & kotlin</strong>,
+    and compete in hackathons for the thrill of shipping fast.
+  </p>
+  <div class="hero-cta">
+    <a href="#projects" class="btn-primary">View Projects</a>
+    <a href="#contact" class="btn-ghost">Get in Touch</a>
+  </div>
+  </div>
+
+  <div class="scroll-hint">
+
+    <div class="scroll-line"></div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="section-header reveal">
+    <span class="section-label">01 // about</span>
+    <div class="section-line"></div>
+  </div>
+  <div class="about-grid">
+    <div class="about-text reveal">
+      <h2 class="section-title" style="margin-bottom:1.5rem">Who I Am</h2>
+      <p>I'm <strong>Dominic Tojan</strong>, a Second-year Computer Science student at CCE College IJK, Kerala. My lab is wherever I have a breadboard, a laptop, and strong enough WiFi to flash firmware over-the-air.</p>
+      <p>I started with app development, building small projects like a BMI calculator and dice‑rolling app before moving into Android apps with Java and Kotlin. Over time, I learned to connect backend logic with real‑world usability, creating mobile solutions that integrate with hardware.
+<p>
+My curiosity then expanded into IoT, where a simple LED circuit grew into full systems using Arduino and ESP32 — from smart medicine boxes to sustainability trackers.
+</p>
+<p>
+Recently, I’ve been exploring game development with Godot and C#, experimenting with immersive 3D environments and interactive mechanics. For me, game dev is storytelling through code, blending creativity and logic.
+
+Whether it’s apps, IoT prototypes, or games, I thrive on turning ideas into tangible creations.</p>
+     </div>
+    <div class="about-stats reveal">
+      <div class="stat-card">
+        <span class="stat-number">4+</span>
+        <span class="stat-label">Projects shipped</span>
+      </div>
+      <div class="stat-card">
+        <span class="stat-number">∞</span>
+        <span class="stat-label">Curiosity level</span>
+      </div>
+      <div class="stat-card">
+        <span class="stat-number">4</span>
+        <span class="stat-label">Hackathons entered</span>
+      </div>
+      <div class="stat-card">
+        <span class="stat-number">Mobile App Development</span>
+        <span class="stat-label">Primary Domain</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+  <div class="section-header reveal">
+    <span class="section-label">02 // skills</span>
+    <div class="section-line"></div>
+  </div>
+  <h2 class="section-title reveal" style="margin-bottom:2.5rem">My Toolkit</h2>
+  <div class="skills-grid">
+    <div class="skill-card reveal">
+      <span class="skill-icon">📱</span>
+      <div class="skill-name">App Development</div>
+      <p style="font-size:0.85rem;color:var(--muted)">Building native Android apps with clean architecture and intuitive UX.</p>
+      <div class="skill-tags">
+        <span class="skill-tag">Java</span>
+        <span class="skill-tag">kotlin</span>
+        <span class="skill-tag">Android Studio</span>
+        <span class="skill-tag">Flutter</span>
+      </div>
+    </div>
+    <div class="skill-card reveal">
+      <span class="skill-icon">🌐</span>
+      <div class="skill-name">Web Design</div>
+      <p style="font-size:0.85rem;color:var(--muted)">Crafting responsive, interactive web experiences from scratch.</p>
+      <div class="skill-tags">
+        <span class="skill-tag">HTML</span>
+        <span class="skill-tag">CSS</span>
+        <span class="skill-tag">Js</span>
+      </div>
+    </div>
+    <div class="skill-card reveal">
+      <span class="skill-icon">🔌</span>
+      <div class="skill-name">Hardware & IoT</div>
+      <p style="font-size:0.85rem;color:var(--muted)">Prototyping connected devices with microcontrollers and sensors.</p>
+      <div class="skill-tags">
+        <span class="skill-tag">Arduino</span>
+        <span class="skill-tag">ESP32</span>
+        <span class="skill-tag">Sensors</span>
+        <span class="skill-tag">Troubleshooting</span>
+      </div>
+    </div>
+    <div class="skill-card reveal">
+      <span class="skill-icon">⚙️</span>
+      <div class="skill-name">3D Modeling</div>
+      <p style="font-size:0.85rem;color:var(--muted)">Designing enclosures and product concepts for IoT builds.</p>
+      <div class="skill-tags">
+        <span class="skill-tag">Fusion 360</span>
+         <span class="skill-tag">Blender</span>
+        <span class="skill-tag">Product Design</span>
+       
+      </div>
+    </div>
+    <div class="skill-card reveal">
+      <span class="skill-icon">🔊</span>
+      <div class="skill-name">DIY Electronics</div>
+      <p style="font-size:0.85rem;color:var(--muted)">Custom audio amplifiers, power circuits, and hands-on builds.</p>
+      <div class="skill-tags">
+        <span class="skill-tag">Audio Systems</span>
+        <span class="skill-tag">DIY Electronics</span>
+        <span class="skill-tag">PCB</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <div class="section-header reveal">
+    <span class="section-label">03 // projects</span>
+    <div class="section-line"></div>
+  </div>
+  <h2 class="section-title reveal" style="margin-bottom:2.5rem">Things I've Built</h2>
+  <div class="projects-grid">
+    <div class="project-card reveal">
+      <div class="project-num">PROJECT — 01</div>
+      <div class="project-title">Smart Medicine Box</div>
+      <p class="project-desc">An IoT device that reminds patients to take medication on time using LED alerts, a buzzer, and a companion mobile app. Bridges hardware and software seamlessly.</p>
+      <div class="project-tech">
+        <span class="tech-badge">ESP32</span>
+        <span class="tech-badge">LED</span>
+        <span class="tech-badge">Buzzer</span>
+        <span class="tech-badge">Android App</span>
+        <span class="tech-badge">IoT</span>
+      </div>
+    </div>
+    <div class="project-card reveal">
+      <div class="project-num">PROJECT — 02</div>
+      <div class="project-title">Hackathon Review Scraper</div>
+      <p class="project-desc">An automated pipeline that scrapes hackathon reviews from multiple platforms, classifies sentiment, and surfaces key insights for organizers and participants.</p>
+      <div class="project-tech">
+        <span class="tech-badge">Python</span>
+        <span class="tech-badge">Scraping</span>
+        <span class="tech-badge">NLP</span>
+        <span class="tech-badge">Classification</span>
+      </div>
+    </div>
+    <div class="project-card reveal">
+      <div class="project-num">PROJECT — 03</div>
+      <div class="project-title">Hand Gesture Interactive System</div>
+      <p class="project-desc">An IoT device that detects hand movements using sensors and translates them into real-time actions like sound, text, or visual feedback. Built for exhibitions and demos to make technology more engaging and accessible.</p>
+      <div class="project-tech">
+        <span class="tech-badge">Arduino</span>
+        <span class="tech-badge">Python</span>
+        <span class="tech-badge">LCD / Buzze</span>
+        <span class="tech-badge">Interactive System</span>
+        <span class="tech-badge">IoT</span>
+      </div>
+    </div>
+    <div class="project-card reveal">
+      <div class="project-num">PROJECT — 04</div>
+      <div class="project-title">Sustainability Awareness Site</div>
+      <p class="project-desc">Interactive website built with Python and AI tooling to raise awareness about sustainability. Features dynamic content generation and an engaging, data-driven UI.</p>
+      <div class="project-tech">
+        <span class="tech-badge">Python</span>
+        <span class="tech-badge">AI</span>
+        <span class="tech-badge">HTML/CSS</span>
+        <span class="tech-badge">Interactive</span>
+      </div>
+    </div>
+
+    <div class="project-card reveal">
+      <div class="project-num">PROJECT — 05</div>
+      <div class="project-title">BMI Calculator App</div>
+      <p class="project-desc">A mobile application that calculates Body Mass Index based on user input for height and weight. Designed with a simple interface to promote health awareness.</p>
+      <div class="project-tech">
+        <span class="tech-badge">Java</span>
+        <span class="tech-badge">Android Studio</span>
+        <span class="tech-badge">Mobile App</span>
+        <span class="tech-badge">Health Utility</span>
+      </div>
+    </div>
+
+    <div class="project-card reveal">
+      <div class="project-num">PROJECT — 06</div>
+      <div class="project-title">Dice Rolling App</div>
+      <p class="project-desc">A fun Android app that simulates rolling dice with random number generation. Built to explore UI design and basic logic implementation in mobile development.</p>
+      <div class="project-tech">
+        <span class="tech-badge">Java</span>
+        <span class="tech-badge">Android Studio</span>
+        <span class="tech-badge">Random Number Generator</span>
+        <span class="tech-badge">Game Utility</span>
+      </div>      
+    </div>
+
+    
+
+
+
+  </div>
+</section>
+
+<!-- ACHIEVEMENTS -->
+<section id="achievements">
+  <div class="section-header reveal">
+    <span class="section-label">04 // achievements</span>
+    <div class="section-line"></div>
+  </div>
+  <h2 class="section-title reveal" style="margin-bottom:2.5rem">Wins & Highlights</h2>
+  <div class="achievements-list">
+    <div class="achievement-item reveal">
+      <div class="achievement-icon">🏆</div>
+      <div class="achievement-text">
+        <h3>Hackathon Participant & Finalist</h3>
+        <p>Competed in multiple hackathons, reaching finalist rounds and building functional prototypes under tight 24–48 hour constraints.</p>
+      </div>
+    </div>
+    <div class="achievement-item reveal">
+      <div class="achievement-icon">🎨</div>
+      <div class="achievement-text">
+        <h3>Department Event Organizer & Branding Lead</h3>
+        <p>Spearheaded creative direction and branding for college department events, designing visual identities that stood out campus-wide.</p>
+      </div>
+    </div>
+    <div class="achievement-item reveal">
+      <div class="achievement-icon">👥</div>
+      <div class="achievement-text">
+        <h3>Collaborative Project Leadership</h3>
+        <p>Led cross-functional student teams from ideation through delivery — coordinating hardware builds, software sprints, and presentations.</p>
+      </div>
+    </div>
+    <div class="achievement-item reveal">
+      <div class="achievement-icon">🔧</div>
+      <div class="achievement-text">
+        <h3>Hands-on Prototyping — Arduino & ESP32</h3>
+        <p>Built and deployed multiple real-world prototypes using microcontrollers, sensors, and wireless communication modules.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- BLOG -->
+<section id="blog">
+  <div class="section-header reveal">
+    <span class="section-label">05 // blog ideas</span>
+    <div class="section-line"></div>
+  </div>
+  <h2 class="section-title reveal" style="margin-bottom:2.5rem">Writing on the Way</h2>
+  <div class="blog-grid">
+    <div class="blog-card reveal">
+      <span class="blog-tag">// IoT</span>
+      <h3>How I Built My First IoT Prototype</h3>
+      <p>From a blinking LED to a connected device — the messy, exciting journey of building my first end-to-end IoT project with ESP32.</p>
+      <span class="blog-arrow">Coming soon →</span>
+    </div>
+    <div class="blog-card reveal">
+      <span class="blog-tag">// Hackathon</span>
+      <h3>Lessons from My First Hackathon</h3>
+      <p>What no one tells you about building under pressure: sleep deprivation, pivot moments, and why shipping beats perfecting.</p>
+      <span class="blog-arrow">Coming soon →</span>
+    </div>
+    <div class="blog-card reveal">
+      <span class="blog-tag">// App Development</span>
+      <h3>My Journey into Mobile Solution</h3>
+      <p>From simple projects like a BMI calculator and dice‑rolling app to Android apps that integrate hardware with dashboards. Exploring how code meets usability and grows into impactful mobile experiences.</p>
+      <span class="blog-arrow">Coming soon →</span>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="section-header reveal">
+    <span class="section-label">06 // contact</span>
+    <div class="section-line"></div>
+  </div>
+  <div class="contact-wrapper">
+    <div class="reveal">
+      <h2 class="contact-headline">Let's build<br>something <em>real.</em></h2>
+      <p class="contact-subtext" style="margin-top:1rem">
+        Whether you want to collaborate on an IoT project, brainstorm a hackathon idea, or just talk tech — my inbox is always open.
+        I'm especially interested in projects that bridge hardware and software.
+      </p>
+    </div>
+    <div class="contact-links reveal">
+      <a href="mailto:dominictojan@gmail.com" class="contact-link">
+        <span class="contact-link-icon">📧</span>
+        <div class="contact-link-info">
+          <span class="contact-link-label">Email</span>
+          <span class="contact-link-value">dominictojan@gmail.com</span>
+        </div>
+        <span class="contact-link-arrow">↗</span>
+      </a>
+      <a href="https://github.com/Dominic3344" target="_blank" class="contact-link">
+        <span class="contact-link-icon">🐙</span>
+        <div class="contact-link-info">
+          <span class="contact-link-label">GitHub</span>
+          <span class="contact-link-value">github.com/dominic3344</span>
+        </div>
+        <span class="contact-link-arrow">↗</span>
+      </a>
+      <a href="https://www.linkedin.com/in/dominic-tojan/" target="_blank" class="contact-link">
+        <span class="contact-link-icon">💼</span>
+        <div class="contact-link-info">
+          <span class="contact-link-label">LinkedIn</span>
+          <span class="contact-link-value">linkedin.com/in/dominictojan</span>
+        </div>
+        <span class="contact-link-arrow">↗</span>
+      </a>
+      <a href="https://www.instagram.com/dom_n_c44/" target="_blank" class="contact-link">
+        <span class="contact-link-icon">📸</span>
+        <div class="contact-link-info">
+          <span class="contact-link-label">Instagram</span>
+          <span class="contact-link-value">instagram.com/dom_n_c44</span>
+        </div>
+        <span class="contact-link-arrow">↗</span>
+      </a>
+      <a href="https://www.instagram.com/code_the_life33/" target="_blank" class="contact-link">
+        <span class="contact-link-icon">📸</span>
+        <div class="contact-link-info">
+          <span class="contact-link-label">Instagra(Public)</span>
+          <span class="contact-link-value">instagram.com/code_the_life33</span>
+        </div>
+        <span class="contact-link-arrow">↗</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <p>© 2026 <span>Dcoder Creation</span></p>
+ <p style="font-family:var(--mono);font-size:0.7rem;color:var(--muted)">
+  <span style="color:var(--cyan)">status:</span>
+  <span class="bulb" id="bulb" title="click me">💡</span>
+  <span class="bulb-text">open to collabs</span>
+</p>
+</footer>
+
+</body>
+</html>
