@@ -837,6 +837,7 @@ footer.visible {
       display: flex;
       flex-direction: column;
       justify-content: flex-start;
+      top: 64px;
     }
     .hero-photo-bg {
           position: relative;
@@ -868,7 +869,7 @@ footer.visible {
       background: linear-gradient(to bottom, transparent, var(--bg) 18%);
     }
     .hero-content .hero-eyebrow { opacity: 1; animation: none; }
-    .hero-content h1.hero-name { opacity: 1; animation: none; font-size: 123px;}
+    .hero-content h1.hero-name { opacity: 1; animation: none; font-size: 93px;}
     .hero-content .hero-tagline { opacity: 1; animation: none; }
     .hero-content .hero-description { opacity: 1; animation: none; }
     .hero-content .hero-cta { opacity: 1; animation: none; }
