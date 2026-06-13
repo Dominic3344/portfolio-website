@@ -329,10 +329,12 @@
   .stat-card:hover::before { transform: scaleY(1); }
 
   .stat-number {
-    font-family: var(--mono);
-    font-size: 2rem;
-    color: var(--cyan);
-    display: block;
+  font-family: var(--mono);
+  font-size: 2rem;
+  color: var(--cyan);
+  display: block;
+  word-break: break-word;      
+  overflow-wrap: break-word;   
   }
   .stat-label {
     font-size: 0.78rem;
@@ -877,10 +879,13 @@ footer.visible {
     .scroll-hint { display: none; }
 
     .stat-number {
-    font-size: 0.7srem;  
-}
-
+    font-size: clamp(0.85rem, 4vw, 2rem);  
   }
+  .stat-card {
+    padding: 1rem;             
+  }
+
+}
 
   * { cursor: none; }
 
